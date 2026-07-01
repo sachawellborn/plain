@@ -1,0 +1,13 @@
+uuid: c57167ac-7955-4deb-975a-1fe308a53481
+langcode: en
+status: true
+dependencies: {  }
+id: clothing
+label: Clothing
+traits: {  }
+locked: false
+description: "Product type Clothing, in parallel with the variation type of Clothing.\r\nVariation Type: \"Clothing\"   ← SKU, price, Size, Colour, weight\r\nProduct Type:   \"Clothing\"   ← body, images, care instructions\r\n                               (linked to Variation Type \"Clothing\")"
+variationTypes:
+  - clothing
+multipleVariations: true
+injectVariationFields: true

@@ -1,0 +1,24 @@
+uuid: f6ce7b2b-d23a-433d-bd19-2805476fc4a8
+langcode: en
+status: true
+dependencies:
+  config:
+    - commerce_product.commerce_product_attribute.colour
+    - commerce_product.commerce_product_variation_type.clothing
+    - field.storage.commerce_product_variation.attribute_colour
+id: commerce_product_variation.clothing.attribute_colour
+field_name: attribute_colour
+entity_type: commerce_product_variation
+bundle: clothing
+label: Colour
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:commerce_product_attribute_value'
+  handler_settings:
+    target_bundles:
+      colour: colour
+field_type: entity_reference
