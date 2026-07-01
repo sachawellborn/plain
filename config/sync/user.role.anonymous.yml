@@ -1,0 +1,28 @@
+uuid: 32e79226-6eab-4230-9c1c-77409ac98a7e
+langcode: en
+status: true
+dependencies:
+  config:
+    - filter.format.restricted_html
+  module:
+    - comment
+    - commerce_checkout
+    - commerce_product
+    - commerce_wishlist
+    - filter
+    - search
+    - system
+_core:
+  default_config_hash: xLG41YbRo2NP-0SgRNTkMzLEuaeibanGXgUTbdIcIIg
+id: anonymous
+label: 'Anonymous user'
+weight: 0
+is_admin: false
+permissions:
+  - 'access checkout'
+  - 'access comments'
+  - 'access content'
+  - 'access wishlist'
+  - 'search content'
+  - 'use text format restricted_html'
+  - 'view commerce_product'

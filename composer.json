@@ -16,15 +16,22 @@
     ],
     "require": {
         "composer/installers": "^2.3",
+        "drupal/admin_toolbar": "^3.6",
         "drupal/commerce": "^3.3",
         "drupal/commerce_paypal": "^2.1",
         "drupal/commerce_shipping": "^3.0",
         "drupal/commerce_stock": "^3.0",
         "drupal/commerce_stripe": "^2.2",
+        "drupal/commerce_wishlist": "^3.0@RC",
         "drupal/core-composer-scaffold": "^11.3",
         "drupal/core-project-message": "^11.3",
         "drupal/core-recipe-unpack": "^11.3",
         "drupal/core-recommended": "^11.3",
+        "drupal/facets": "^3.0",
+        "drupal/metatag": "^2.2",
+        "drupal/pathauto": "^1.15",
+        "drupal/search_api": "^1.41",
+        "drupal/simple_sitemap": "^4.2",
         "drush/drush": "^13.7"
     },
     "require-dev": {
